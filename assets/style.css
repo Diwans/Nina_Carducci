@@ -126,6 +126,8 @@ body {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
+	max-width: 450px;
+	max-height: 450px;
 }
 .mg-prev, .mg-next {
 	width: 30px;
@@ -356,3 +358,19 @@ input[type="submit"] {
 	}
 }
 
+/********* modification *********/
+
+.d-block{
+	max-width: 1920px;
+	max-height: 880px;
+}
+
+#nina{
+	max-width: 550px;
+	max-height: 550px;
+}
+
+#camera{
+	max-width: 425px;
+	max-height: 425px;
+}
